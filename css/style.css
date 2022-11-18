@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(128,128,128,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(128,128,128,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(128,128,128,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#808080",GradientType=1);
+}
+
+.btn-primary{
+    filter: hue-rotate(60deg);
+}
+.list-group{
+    filter: hue-rotate(60deg);
+}
+
+.gear_settings{
+    width: 32px;
+    height: auto;
+    cursor: pointer;
+}
+
+#passGenField{
+    resize: none;
+}
+#settings{
+    display: none;
+}
+
+.setting_label{
+    width: 250px;
+}
+.password_length_example{
+    width: 202px;
+}
+.setting_example{
+    resize: none;
+}
